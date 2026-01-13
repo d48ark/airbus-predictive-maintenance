@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
 - [Dataset](#dataset)
@@ -18,7 +18,7 @@
 
 ---
 
-## 📘 Project Overview
+##  Project Overview
 - Developed a **Predictive Maintenance** pipeline for aircraft engines.
 - Predicts **RUL (Remaining Useful Life)** from real-time sensor data.
 - Supports **controlled experiments**, **model monitoring**, and **automated report generation**.
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧩 Architecture
+##  Architecture
 
      ┌──────────────────────┐
      │  Raw Sensor Data     │
@@ -53,7 +53,7 @@ Streamlit Dashboard UI
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Name:** NASA C-MAPSS Turbofan Engine Degradation Dataset  
 - **Source:** [NASA](https://www.kaggle.com/datasets/behrad3d/nasa-cmaps?resource=download)  
@@ -62,7 +62,7 @@ Streamlit Dashboard UI
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 **Languages:** Python  
 **Libraries:** pandas, numpy, scikit-learn, TensorFlow/Keras, matplotlib, seaborn  
@@ -72,26 +72,8 @@ Streamlit Dashboard UI
 
 ---
 
-## 🧠 Project Workflow
 
-- **Day 1:** Data ingestion & cleaning  
-- **Day 2:** Feature engineering & RUL labeling  
-- **Day 3:** Train baseline RF model + LSTM model  
-- **Day 4:** Controlled experiments + evaluation (MAE, RMSE, MAPE)  
-- **Day 5:** Deployment with Docker + MLflow + Monitoring  
-- **Day 6:** RPA bot to generate automated maintenance reports  
-- **Day 7:** Streamlit dashboard + Documentation + Demo
-
----
-
-## 📈 Results (To be filled after training)
-- RF MAE: ___  
-- LSTM MAE: ___  
-- Dashboard Screenshot: (add image later)
-
----
-
-## 🖥️ How to Run
+## How to Run
 
 ```bash
 # Clone repo
